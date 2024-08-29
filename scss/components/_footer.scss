@@ -1,0 +1,25 @@
+.footer-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dedbd7;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.footer-copyright {
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+footer { 
+    img {
+    width: 30px;
+    }
+    div {
+        padding: 10px;
+    }
+}

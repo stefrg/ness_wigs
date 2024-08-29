@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+    .hero {
+      position: relative;
+      height: 500px;
+      width: 100%;
+      padding: 0;
+      div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #000000bc;
+        h2 {
+            font-size: 60px;
+          }
+        p {
+            font-size: 20px;
+        }
+        
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+}
