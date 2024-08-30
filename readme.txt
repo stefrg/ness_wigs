@@ -1,2 +1,1 @@
-Para la segunda preentrega elegí el index y la sección de productos para desarrollar el estilado de ambas páginas con bootstrap, flex y grid.
-En el footer decidí eliminar los links ya que el navbar tiene la propiedad sticky por lo que es visible siempre en el top de la página aun después de scrollear hacia abajo, haciéndolos innecesarios.
+Proyecto de desarrollo web, tercer preentrega aplicando SASS y SEO
