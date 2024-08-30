@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: $off-black;
     padding: 10px;
     top: 0px;
 }
@@ -12,5 +12,5 @@
 }
 
 .navbar-toggler {
-    border: solid black 3px;
+    border: solid $off-black 3px;
 }

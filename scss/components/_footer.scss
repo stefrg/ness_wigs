@@ -2,16 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #dedbd7;
+    background-color: $greige-principal;
     text-decoration: none;
-    color: gray;
+    color: $greige-principal;
     font-size: 1.5rem;
 }
 
 .footer-copyright {
-    background-color: black;
+    background-color: $off-black;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: $greige-principal;
     font-size: 1rem;
 }
 

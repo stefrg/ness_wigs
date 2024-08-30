@@ -25,16 +25,14 @@
     color: white;
 }
 
-
-.section-title {
-    text-align: center;
-    font-size: 2rem;
-    padding: 20px; 
-}
-
-.section-content {
-    text-align: center;
-    font-size: 1rem;
+.title-container {
+    margin-top: 60px;
+    h2 {
+        @include title-style;
+    }
+    p {
+        @include content-style;
+    }
 }
 
 .marketing .col-lg-4 {
@@ -45,7 +43,7 @@
         margin-left: 0.75rem;
     }
     img {
-        border: solid black 3px;
+        border: solid $off-black 3px;
     }
 }
   
@@ -54,7 +52,7 @@
 }
   
 .bgBoton {
-    background-color: black;
+    background-color: $off-black;
 }
 
 .newsletter {
@@ -71,7 +69,7 @@
     background-color: #fff;
     padding:20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: $box-shadow;
     h2 {
         margin-bottom: 20px;
     }
