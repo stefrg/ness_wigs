@@ -141,13 +141,16 @@ button[type=submit]:hover {
   color: white;
 }
 
-.section-title {
+.title-container {
+  margin-top: 60px;
+}
+.title-container h2 {
   text-align: center;
   font-size: 2rem;
   padding: 20px;
+  font-weight: 600;
 }
-
-.section-content {
+.title-container p {
   text-align: center;
   font-size: 1rem;
 }
@@ -161,15 +164,15 @@ button[type=submit]:hover {
   margin-left: 0.75rem;
 }
 .marketing .col-lg-4 img {
-  border: solid black 3px;
+  border: solid rgb(25, 25, 25) 3px;
 }
 
 .marketing h2 {
   font-weight: 400;
 }
 
-.bgBoton {
-  background-color: black;
+.bg-dark {
+  background-color: rgb(25, 25, 25);
 }
 
 .newsletter {
@@ -196,20 +199,19 @@ button[type=submit]:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 0px 20px 10px 20px;
 }
 
 .text-container, .map-container {
   flex: 1 1 500px;
   max-width: 600px;
-  margin: 10px;
 }
 
 .text-container {
   padding: 20px;
 }
 .text-container p {
-  color: #555;
+  color: #666;
   line-height: 1.6;
 }
 
@@ -233,15 +235,14 @@ button[type=submit]:hover {
   max-width: 800px;
   margin: 15px;
   padding: 15px;
-  border: 1px solid #ddd;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .video-card h3 {
   margin: 10px 0 5px;
   font-size: 18px;
-  color: #333;
+  color: rgb(25, 25, 25);
 }
 .video-card p {
   font-size: 14px;
@@ -343,7 +344,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.737254902);
   }
   .hero div h2 {
     font-size: 60px;
