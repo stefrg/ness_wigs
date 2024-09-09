@@ -1,1 +1,1 @@
-Proyecto de desarrollo web, tercer preentrega aplicando SASS y SEO
+Proyecto de desarrollo web, entrega final
